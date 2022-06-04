@@ -1,0 +1,13 @@
+org_name: nullstone
+name: aws-cloudwatch-newrelic
+friendly_name: New Relic for Cloudwatch
+description: Capability to emit logs/metrics for an AWS app with logs in cloudwatch to New Relic.
+category: capability/telemetry
+type: newrelic/aws-cloudwatch
+appCategories:
+    - app/container
+    - app/serverless
+layer: service
+is_public: true
+provider_types:
+    - aws
