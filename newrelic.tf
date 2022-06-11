@@ -1,6 +1,7 @@
 data "ns_connection" "newrelic" {
-  name = "newrelic"
-  type = "newrelic/aws"
+  name     = "newrelic"
+  type     = "newrelic/aws"
+  contract = "datastore/aws/newrelic"
 }
 
 locals {
